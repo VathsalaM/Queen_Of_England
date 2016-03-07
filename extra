@@ -1,0 +1,10 @@
+public class Record {
+
+    private String[] splitter(String textToBeSplitted,){
+
+    }
+    public void create(String listOfRecords){
+
+    }
+}
+

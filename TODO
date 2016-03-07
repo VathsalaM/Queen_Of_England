@@ -1,0 +1,29 @@
+Requirement :
+    print labels for the given record
+
+Given :
+    list of records :
+        firstName,lastName,gender,age,city,state,country
+    Prefix :
+        Males : Mr
+        Females : Ms
+    Output forms :
+        formal : Mr Stupid Fellow
+        informal : Mr Fellow, Stupid
+
+-------------------------------------------------------------------------------------
+
+Input format :
+    java PrintList --formal records.txt
+    java PrintList --informal records.txt
+    java PrintList -f records.txt
+    java PrintList -f records.txt
+
+Output format :
+    $ cat records.txt
+        Julius,Barrows,Female,18,Veda haven,Vermont,Macedonia
+
+    $ java PrintList -f records.txt
+        Ms Julius Barrows
+
+---------------------------------------------------------------------------------------
