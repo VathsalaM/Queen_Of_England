@@ -8,9 +8,9 @@ public class PrintLabel {
     private String fileName;
 
     public PrintLabel(String[] commands) {
-        Split split = new Split();
-        this.commands = split.extractFeilds(commands);
-        fileName = split.toString();
+        ArgumentSeperator argumentSeperator = new ArgumentSeperator();
+        this.commands = argumentSeperator.extractFeilds(commands);
+        this.fileName = argumentSeperator.toString();
     }
 
     private Record createLabel() throws IOException {

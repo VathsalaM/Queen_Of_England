@@ -9,7 +9,7 @@ public class Gender {
 
     @Override
     public String toString() {
-        return Objects.equals(this.gender, "Female") ?"Ms":"Mr";
+        return Objects.equals(this.gender, "Female") ? "Ms" : "Mr";
     }
 
 }

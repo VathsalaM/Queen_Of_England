@@ -27,3 +27,11 @@ Output format :
         Ms Julius Barrows
 
 ---------------------------------------------------------------------------------------
+
+version 2 :
+
+Input format :
+    java PrintList --formal --country Bangladesh records.txt
+
+Output format :
+    Ms Julius,Barrows
