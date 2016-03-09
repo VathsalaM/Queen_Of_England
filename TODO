@@ -34,4 +34,16 @@ Input format :
     java PrintList --formal --country Bangladesh records.txt
 
 Output format :
-    Ms Julius,Barrows
+    $ cat records.txt
+        Julius,Barrows,Female,18,Veda haven,Vermont,Macedonia
+        Melody,Dooley,Female,31,West Shanna,Vermont,Bangladesh
+
+    $ java PrintList --formal --country Bangladesh records.txt
+        Ms Melody Dooley, Bangladesh
+
+-----------------------------------------------------------------------------------------
+
+version 2 refactoring :
+
+Input format :
+    java PrintList --formal country:Bangladesh,India records.txt
