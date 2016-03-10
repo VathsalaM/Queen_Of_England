@@ -1,27 +1,32 @@
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 class Record extends HashMap {
 
-    private final String[] fields;
-    private HashMap<Name, Guest> labelList;
+    private String listOfRecords;
 
-    public Record(String[] fields) {
-        this.fields = fields;
+    public Record(String listOfRecords) {
+        this.listOfRecords = listOfRecords;
     }
 
-    public void create(String listOfRecordInString) {
-        String[] listOfRecords = listOfRecordInString.split("\n");
-        for (String guestDetailsInString : listOfRecords) {
-            String[] guestDetails = guestDetailsInString.split(",");
-            Name name = new Name(guestDetails[0],guestDetails[1]);
-            Gender gender = new Gender(guestDetails[2]);
-            Age age = new Age(Integer.valueOf(guestDetails[3]));
-            City city = new City(guestDetails[4]);
-            State state = new State(guestDetails[5]);
-            Country country = new Country(guestDetails[6]);
-            Address address = new Address(city,state,country);
-            Guest guest = new Guest(name, gender, age, address);
-            labelList.put(name,guest);
+    public ArrayList<Guest> create(HashMap<String,String> conditions) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
+        ArrayList<Guest> guestList = Generate.guestList(listOfRecords);
+        ArrayList<Guest> records = new ArrayList<>();
+        if(conditions.size()==0)
+            return guestList;
+        for (Guest guest : guestList) {
+            if(Condition.chechAllConditions(conditions,guest))
+                records.add(guest);
         }
+        return records;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        Record record = (Record) o;
+        return listOfRecords.equals(record.listOfRecords);
+
     }
 }

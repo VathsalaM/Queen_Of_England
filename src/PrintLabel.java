@@ -1,37 +1,42 @@
-//import java.io.File;
-//import java.io.FileReader;
-//import java.io.IOException;
-//
-//class PrintLabel {
-//
-//    private final String[] commands;
-//    private final String fileName;
-//
-//    public PrintLabel(String[] commands) {
-//        ArgumentSeparator argumentSeparator = new ArgumentSeparator();
-//        this.commands = argumentSeparator.extractFields(commands);
-//        this.fileName = argumentSeparator.toString();
-//    }
-//
-//    private Record createLabel() throws IOException {
-//        Record record = new Record(commands);
-//        String listOfRecords = readFile(fileName);
-//        record.create(listOfRecords);
-//        return record;
-//    }
-//
-//    public void print() throws IOException {
-//        Record record = this.createLabel();
-//        String outPutLabels = record.print();
-//        System.out.println(outPutLabels);
-//    }
-//
-//    private String readFile(String fileName) throws IOException {
-//        File file = new File(fileName);
-//        FileReader fileReader = new FileReader(file);
-//        char[] characterBuffer = new char[(int) file.length()];
-//        fileReader.read(characterBuffer);
-//        return new String(characterBuffer);
-//    }
-//
-//}
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
+
+class PrintLabel {
+    private String[] arguments;
+    private Set<String> commands;
+    private String fileName;
+    private HashMap<String, String> conditions;
+
+    public PrintLabel(String[] arguments) {
+        this.arguments = arguments;
+    }
+
+    public void print() throws IOException, NoSuchMethodException, InstantiationException, ClassNotFoundException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
+        ArrayList<Guest> guestList = this.createLabel(arguments);
+        Represent.print(commands,conditions.keySet(),guestList);
+    }
+
+    private ArrayList<Guest> createLabel(String[] arguments) throws IOException, NoSuchMethodException, InstantiationException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
+        ArgumentSeparator argumentSeparator = new ArgumentSeparator(arguments);
+        commands = argumentSeparator.separate();
+        fileName = argumentSeparator.toString();
+        conditions = argumentSeparator.getConditions();
+        String listOfRecords = readFile(fileName);
+        Record record = new Record(listOfRecords);
+        return record.create(conditions);
+    }
+
+    private String readFile(String fileName) throws IOException {
+        File file = new File(fileName);
+        FileReader fileReader = new FileReader(file);
+        char[] characterBuffer = new char[(int) file.length()];
+        fileReader.read(characterBuffer);
+        return new String(characterBuffer);
+    }
+
+}

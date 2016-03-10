@@ -9,6 +9,6 @@ public class AddressTest {
         State state = new State("Karnataka");
         Country country = new Country("India");
         Address address = new Address(city, state, country);
-        assertTrue(address.isSameCountry(country));
+        assertTrue(address.isSameCountry(new Country("India")));
     }
 }

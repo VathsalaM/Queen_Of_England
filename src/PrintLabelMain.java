@@ -1,8 +1,9 @@
-//import java.io.IOException;
-//
-//class PrintLabelMain {
-//    public static void main(String[] args) throws IOException {
-//        PrintLabel printLabel = new PrintLabel(args);
-//        printLabel.print();
-//    }
-//}
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+
+class PrintLabelMain {
+    public static void main(String[] args) throws IOException, NoSuchMethodException, InstantiationException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
+        PrintLabel printLabel = new PrintLabel(args);
+        printLabel.print();
+    }
+}

@@ -12,4 +12,23 @@ public class Address {
     public boolean isSameCountry(Country otherCountry) {
         return this.country.equals(otherCountry);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        Address address = (Address) o;
+        return city.equals(address.city) && state.equals(address.state) && country.equals(address.country);
+
+    }
+
+    public String city() {
+        return city.toString();
+    }
+    public String state() {
+        return state.toString();
+    }
+    public String country() {
+        return country.toString();
+    }
+
 }
