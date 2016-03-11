@@ -17,11 +17,17 @@ class PrintLabel {
     }
 
     public void print() throws IOException, NoSuchMethodException, InstantiationException, ClassNotFoundException, IllegalAccessException, InvocationTargetException, NoSuchFieldException {
-        ArrayList<Guest> guestList = this.createLabel(arguments);
-        Represent.print(commands,conditions.keySet(),guestList);
+        ArrayList<Guest> guestList = this.createGuestList(arguments);
+        Represent represent = new Represent();
+        if (commands.contains("borderedLabel")) {
+            represent.print(commands, guestList);
+            return;
+        }
+        else
+            represent.print(commands, conditions.keySet(), guestList);
     }
 
-    private ArrayList<Guest> createLabel(String[] arguments) throws IOException, NoSuchMethodException, InstantiationException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
+    private ArrayList<Guest> createGuestList(String[] arguments) throws IOException, NoSuchMethodException, InstantiationException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
         ArgumentSeparator argumentSeparator = new ArgumentSeparator(arguments);
         commands = argumentSeparator.separate();
         fileName = argumentSeparator.toString();
@@ -37,6 +43,11 @@ class PrintLabel {
         char[] characterBuffer = new char[(int) file.length()];
         fileReader.read(characterBuffer);
         return new String(characterBuffer);
+    }
+
+    public static void main(String[] args) throws IOException, NoSuchMethodException, InstantiationException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
+        PrintLabel printLabel = new PrintLabel(args);
+        printLabel.print();
     }
 
 }

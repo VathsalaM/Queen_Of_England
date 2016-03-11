@@ -1,5 +1,3 @@
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 
 class Guest {
@@ -23,11 +21,12 @@ class Guest {
     }
 
     public String formalName(String value) {
-        return gender.findPrefix() + " " + name.formalName();
+        return gender.findPrefix() + " " + name.informalName();
     }
 
     public String informalName(String value) {
-        return gender.findPrefix() + " " + name.informalName();
+        System.out.println("calling ....................");
+        return gender.findPrefix() + " " + name.formalName();
     }
 
     @Override
@@ -42,18 +41,14 @@ class Guest {
         switch (command) {
             case "formal":
                 return formalName(value);
-            case "informal":
+            case "informalName":
                 return informalName(value);
             case "country":
                 return country(value);
-            case "city":
-                return city(value);
-            case "state":
-                return state(value);
-            case "age":
+            case "ageAbove":
                 return age(value);
-            case "gender":
-                return gender(value);
+            case "address":
+                return address.toString();
             default:
                 return formalName(value);
         }
@@ -66,17 +61,11 @@ class Guest {
     private String age(String value) {
         return String.format("%s, %s",value,age.toString());
     }
-
-    private String state(String value) {
-        return String.format("%s, %s",value,address.state());
-    }
-
-    private String city(String value) {
-        return String.format("%s, %s",value,address.city());
-
-    }
-
     private String country(String value) {
-        return String.format("%s, %s",value,address.country());
+        return value+address.country();
+    }
+
+    public boolean isAgeValid(String condition, Age age) {
+        return this.age.isAbove(age);
     }
 }

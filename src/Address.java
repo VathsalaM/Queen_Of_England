@@ -21,12 +21,11 @@ public class Address {
 
     }
 
-    public String city() {
-        return city.toString();
+    @Override
+    public String toString() {
+        return String.format("%s, %s",city.toString(),state.toString());
     }
-    public String state() {
-        return state.toString();
-    }
+
     public String country() {
         return country.toString();
     }

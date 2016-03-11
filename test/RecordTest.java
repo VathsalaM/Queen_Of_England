@@ -21,7 +21,7 @@ public class RecordTest {
         Guest guest = new Guest(name, gender, age, address);
         expectedRecord.add(guest);
         HashMap<String,String> conditions = new HashMap<>();
-        conditions.put("Country","Bangladesh");
+        conditions.put("byCountry","Bangladesh");
         ArrayList<Guest> actualRecord = new Record(listOfRecords).create(conditions);
         assertTrue(expectedRecord.equals(actualRecord));
     }

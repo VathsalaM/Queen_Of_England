@@ -12,4 +12,9 @@ public class City {
         return name.equals(city.name);
 
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

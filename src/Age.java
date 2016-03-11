@@ -14,4 +14,12 @@ public class Age {
         return age == age1.age;
 
     }
+    public boolean isAbove(Age age) {
+        return this.age>age.age;
+    }
+
+    @Override
+    public String toString() {
+        return  ""+age;
+    }
 }

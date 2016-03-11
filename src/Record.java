@@ -16,7 +16,7 @@ class Record extends HashMap {
         if(conditions.size()==0)
             return guestList;
         for (Guest guest : guestList) {
-            if(Condition.chechAllConditions(conditions,guest))
+            if(Filter.chechAllConditions(conditions,guest))
                 records.add(guest);
         }
         return records;

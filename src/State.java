@@ -12,4 +12,9 @@ public class State {
         return name.equals(state.name);
 
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

@@ -10,7 +10,7 @@ class ArgumentSeparator {
         return conditions;
     }
 
-    private HashMap<String, String> conditions;
+    private HashMap<String, String> conditions = new HashMap<>();
 
     public ArgumentSeparator(String[] arguments) {
         this.arguments = arguments;
@@ -18,16 +18,22 @@ class ArgumentSeparator {
 
     public Set<String> separate() {
         commands = new HashSet<>();
-        ArrayList<String> argumentsWithoutSpecialCharacters = new ArrayList<>();
         for (int i=0;i<arguments.length-1;i++) {
-            if(arguments[i].split("[^-]").length>0)
-                commands.add(Extract.extractCommand(arguments[i]));
-            else
-                argumentsWithoutSpecialCharacters.add(arguments[i]);
+            extactCommand(arguments[i]);
         }
         this.file = this.arguments[arguments.length-1];
-        this.conditions = Extract.extractConditions(commands,argumentsWithoutSpecialCharacters);
-        return commands;
+        return Extract.extractCommands(commands);
+    }
+
+    private void extactCommand(String argument) {
+        if(argument.split("[^-]").length>0)
+            commands.add(Extract.extractCommand(argument));
+        else {
+            String[] conditionSplit = argument.split(":");
+            if(conditionSplit.length>0) {
+                conditions.put(conditionSplit[0], conditionSplit[1]);
+            }
+        }
     }
 
     public boolean isCommandsEqual(Set<String> otherCommands) {
