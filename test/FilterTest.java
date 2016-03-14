@@ -13,6 +13,6 @@ public class FilterTest {
         Country country = new Country("India");
         Address address = new Address(city, state, country);
         Guest guest = new Guest(name, gender, age, address);
-        assertTrue(Filter.check("byCountry","India",guest));
+        assertTrue(Filter.check("country","India",guest));
     }
 }

@@ -5,6 +5,7 @@ import java.util.Set;
 public class Represent {
 
     public void print(Set<String> commands, Set<String> conditions, ArrayList<Guest> guestList) {
+        System.out.println("function called.......");
         commands.addAll(conditions);
         for (Guest guest : guestList) {
             String guestDetails = getAllFields(commands, guest);
@@ -22,7 +23,6 @@ public class Represent {
 
     public void print(Set<String> commands, ArrayList<Guest> guestList) {
         String[] strings = commands.toArray(new String[commands.size()]);
-        System.out.println(commands);
         for (Guest guest : guestList) {
             String name = guest.getValue(strings[1], "");
             String cityAndState = guest.getValue("address", "");

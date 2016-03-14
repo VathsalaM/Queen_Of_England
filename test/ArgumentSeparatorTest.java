@@ -21,14 +21,13 @@ public class ArgumentSeparatorTest {
 
     @Test
     public void separate_separates_the_condition_to_be_performed() throws Exception {
-        String[] arguments = {"--informal","--country","Bangladesh","sample.txt"};
+        String[] arguments = {"--informalName","country:Bangladesh","sample.txt"};
         ArgumentSeparator argumentSeparator = new ArgumentSeparator(arguments);
         argumentSeparator.separate();
         HashMap<String,String> conditions = new HashMap<>();
         conditions.put("country","Bangladesh");
         Set<String> commands = new HashSet<>();
-        commands.add("informal");
-        commands.add("country");
+        commands.add("informalName");
         String file = "sample.txt";
         assertTrue(argumentSeparator.isConditionsEqual(conditions));
         assertTrue(argumentSeparator.isCommandsEqual(commands));

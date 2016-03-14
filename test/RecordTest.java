@@ -3,7 +3,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class RecordTest {
     @Test
@@ -21,8 +21,8 @@ public class RecordTest {
         Guest guest = new Guest(name, gender, age, address);
         expectedRecord.add(guest);
         HashMap<String,String> conditions = new HashMap<>();
-        conditions.put("byCountry","Bangladesh");
+        conditions.put("country","Bangladesh");
         ArrayList<Guest> actualRecord = new Record(listOfRecords).create(conditions);
-        assertTrue(expectedRecord.equals(actualRecord));
+        assertEquals(expectedRecord,actualRecord);
     }
 }

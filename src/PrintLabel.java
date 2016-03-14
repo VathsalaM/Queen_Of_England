@@ -20,6 +20,7 @@ class PrintLabel {
         ArrayList<Guest> guestList = this.createGuestList(arguments);
         Represent represent = new Represent();
         if (commands.contains("borderedLabel")) {
+            System.out.println("hello...........");
             represent.print(commands, guestList);
             return;
         }
@@ -43,11 +44,6 @@ class PrintLabel {
         char[] characterBuffer = new char[(int) file.length()];
         fileReader.read(characterBuffer);
         return new String(characterBuffer);
-    }
-
-    public static void main(String[] args) throws IOException, NoSuchMethodException, InstantiationException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
-        PrintLabel printLabel = new PrintLabel(args);
-        printLabel.print();
     }
 
 }

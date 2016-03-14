@@ -25,7 +25,6 @@ class Guest {
     }
 
     public String informalName(String value) {
-        System.out.println("calling ....................");
         return gender.findPrefix() + " " + name.formalName();
     }
 

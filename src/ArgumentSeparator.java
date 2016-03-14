@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 class ArgumentSeparator {
 
@@ -18,19 +20,19 @@ class ArgumentSeparator {
 
     public Set<String> separate() {
         commands = new HashSet<>();
-        for (int i=0;i<arguments.length-1;i++) {
+        for (int i = 0; i < arguments.length - 1; i++) {
             extactCommand(arguments[i]);
         }
-        this.file = this.arguments[arguments.length-1];
+        this.file = this.arguments[arguments.length - 1];
         return Extract.extractCommands(commands);
     }
 
     private void extactCommand(String argument) {
-        if(argument.split("[^-]").length>0)
+        if (argument.split("[^-]").length > 0)
             commands.add(Extract.extractCommand(argument));
         else {
             String[] conditionSplit = argument.split(":");
-            if(conditionSplit.length>0) {
+            if (conditionSplit.length > 0) {
                 conditions.put(conditionSplit[0], conditionSplit[1]);
             }
         }

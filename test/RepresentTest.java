@@ -14,7 +14,7 @@ public class RepresentTest {
     public void addSpace_adds_extra_space_for_the_string_and_returns_the_string() throws Exception {
         Represent represent = new Represent();
         String actualString = represent.addChar("hello",15,' ');
-        assertEquals(" hello          ",actualString);
+        assertEquals(" hello           ",actualString);
     }
 
     @Test
