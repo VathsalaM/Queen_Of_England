@@ -46,4 +46,4 @@ Output format :
 version 2 refactoring :
 
 Input format :
-    java PrintList --formal country:Bangladesh,India records.txt
+    java PrintList --formal country:Bangladesh records.txt
