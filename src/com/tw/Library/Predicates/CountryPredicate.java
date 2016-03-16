@@ -13,15 +13,4 @@ public class CountryPredicate implements Predicates {
     public boolean test(Guest guest) {
         return guest.isSameCountry(country);
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        CountryPredicate that = (CountryPredicate) o;
-
-        return country != null ? country.equals(that.country) : that.country == null;
-
-    }
 }

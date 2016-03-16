@@ -19,7 +19,7 @@ public class ArgumentSeparatorTest {
         HashMap<String,String> conditions = new HashMap<>();
         String file = "sample.txt";
         assertEquals(commands,argumentSeparator.separateCommandsAndConditions());
-        assertEquals(file,argumentSeparator.file());
+        assertEquals(file,argumentSeparator.getFile());
         assertEquals(conditions,argumentSeparator.getConditions());
     }
 
@@ -33,7 +33,7 @@ public class ArgumentSeparatorTest {
         conditions.put("country","Germany");
         String file = "sample.txt";
         assertEquals(commands,argumentSeparator.separateCommandsAndConditions());
-        assertEquals(file,argumentSeparator.file());
+        assertEquals(file,argumentSeparator.getFile());
         assertEquals(conditions,argumentSeparator.getConditions());
     }
     @Test
@@ -46,7 +46,7 @@ public class ArgumentSeparatorTest {
         conditions.put("country","Germany");
         String file = "sample.txt";
         assertEquals(commands,argumentSeparator.separateCommandsAndConditions());
-        assertEquals(file,argumentSeparator.file());
+        assertEquals(file,argumentSeparator.getFile());
         assertEquals(conditions,argumentSeparator.getConditions());
     }
     @Test
@@ -59,7 +59,7 @@ public class ArgumentSeparatorTest {
         conditions.put("country","Germany");
         String file = "sample.txt";
         assertEquals(commands,argumentSeparator.separateCommandsAndConditions());
-        assertEquals(file,argumentSeparator.file());
+        assertEquals(file,argumentSeparator.getFile());
         assertEquals(conditions,argumentSeparator.getConditions());
     }
 

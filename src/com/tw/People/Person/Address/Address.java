@@ -15,14 +15,6 @@ public class Address {
         return this.country.equals(otherCountry);
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        Address address = (Address) o;
-        return city.equals(address.city) && state.equals(address.state) && country.equals(address.country);
-
-    }
-
     public String cityAndCountry() {
         return String.format("%s, %s",city.toString(),state.toString());
     }

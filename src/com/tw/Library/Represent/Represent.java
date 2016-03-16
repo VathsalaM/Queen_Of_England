@@ -1,5 +1,4 @@
 package com.tw.Library.Represent;
-
 import com.tw.Library.Formats.Format;
 import com.tw.People.Person.Guest;
 
@@ -7,8 +6,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
+
 public class Represent {
 
+    public String label(Format format, ArrayList<Guest> guestList) {
+        String result = "";
+        for (Guest guest : guestList) {
+            String name = guest.formatName(format);
+            String cityAndState = guest.cityAndState();
+            String country = guest.country();
+            String label = getBorderedLabel(name, cityAndState, country);
+            result += label;
+        }
+        return result;
+    }
     private String getBorderedLabel(String name, String cityAndState, String country) {
         int maxLength = findMaxLength(name, cityAndState, country);
         name = addChar(name, maxLength, ' ');
@@ -39,15 +50,4 @@ public class Represent {
         return maximum.length();
     }
 
-    public String label(Format format, ArrayList<Guest> guestList) {
-        String result = "";
-        for (Guest guest : guestList) {
-            String name = format.value(guest);
-            String cityAndState = guest.cityAndState();
-            String country = guest.country();
-            String label = getBorderedLabel(name, cityAndState, country);
-            result += label;
-        }
-        return result;
-    }
 }

@@ -1,10 +1,8 @@
 package com.tw.Library.Formats;
 
-import com.tw.People.Person.Guest;
-
 public class InformalNameFormat implements Format {
     @Override
-    public String value(Guest guest) {
-        return guest.informalName();
+    public String value(String firstName,String lastName) {
+        return String.format("%s %s",firstName,lastName);
     }
 }

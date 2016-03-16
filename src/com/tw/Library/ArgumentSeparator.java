@@ -49,7 +49,7 @@ public class ArgumentSeparator {
         return commands;
     }
 
-    public String file() {
+    public String getFile() {
         return this.file;
     }
     public HashMap<String, String> getConditions() {

@@ -7,14 +7,6 @@ public class State {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        State state = (State) o;
-        return name.equals(state.name);
-
-    }
-
-    @Override
     public String toString() {
         return name;
     }

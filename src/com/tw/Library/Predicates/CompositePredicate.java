@@ -17,15 +17,4 @@ public class CompositePredicate implements Predicates {
         }
         return true;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        CompositePredicate that = (CompositePredicate) o;
-
-        return predicates != null ? predicates.equals(that.predicates) : that.predicates == null;
-
-    }
 }

@@ -1,5 +1,6 @@
 package com.tw.People.Person;
 
+import com.tw.Library.Formats.Format;
 import com.tw.People.Person.Address.Address;
 import com.tw.People.Person.Address.Country;
 
@@ -19,12 +20,8 @@ public class Guest {
         this.address = address;
     }
 
-    public String formalName() {
-        return gender.prefix() + " " + name.formalName();
-    }
-
-    public String informalName() {
-        return gender.prefix() + " " + name.informalName();
+    public String formatName(Format format) {
+        return gender.prefix() + " " + name.format(format);
     }
 
     public String age() {
@@ -37,14 +34,6 @@ public class Guest {
 
     public String cityAndState() {
         return address.cityAndCountry();
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        Guest guest = (Guest) o;
-        return name.equals(guest.name) && gender.equals(guest.gender) && age.equals(guest.age) && address.equals(guest.address);
-
     }
 
     public boolean isAgeValid(Age age) {
