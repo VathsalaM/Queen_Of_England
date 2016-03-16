@@ -1,13 +1,13 @@
-package com.tw.Library.Predicates;
+package com.tw.Library.Filter;
 
 import com.tw.People.Person.Age;
 import com.tw.People.Person.Guest;
 
-public class AgePredicate implements Predicates {
+public class AgeFilter implements Filter {
 
     private Age age;
 
-    public AgePredicate(Age age) {
+    public AgeFilter(Age age) {
 
         this.age = age;
     }

@@ -15,13 +15,12 @@ public class ArgumentSeparator {
         this.arguments = arguments;
     }
 
-    public Set<String> separateCommandsAndConditions() {
+    public Set<String> separateCommands() {
         Set<String> commands = new HashSet<>();
         for (int i = 0; i < arguments.length - 1; i++) {
-            if (arguments[i].split("[^-]").length > 0){
+            if (arguments[i].split("[^-]").length > 0) {
                 commands.add(extractCommand(arguments[i]));
-            }
-            else{
+            } else {
                 String[] conditionSplit = arguments[i].split(":");
                 if (conditionSplit.length > 0) {
                     conditions.put(conditionSplit[0], conditionSplit[1]);
@@ -52,6 +51,7 @@ public class ArgumentSeparator {
     public String getFile() {
         return this.file;
     }
+
     public HashMap<String, String> getConditions() {
         return conditions;
     }

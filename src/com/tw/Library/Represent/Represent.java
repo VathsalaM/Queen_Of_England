@@ -1,10 +1,10 @@
 package com.tw.Library.Represent;
+
 import com.tw.Library.Formats.Format;
 import com.tw.People.Person.Guest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
 
 
 public class Represent {
@@ -20,6 +20,7 @@ public class Represent {
         }
         return result;
     }
+
     private String getBorderedLabel(String name, String cityAndState, String country) {
         int maxLength = findMaxLength(name, cityAndState, country);
         name = addChar(name, maxLength, ' ');

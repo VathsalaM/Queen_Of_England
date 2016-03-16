@@ -17,13 +17,13 @@ public class RepresentTest {
         ArrayList<Guest> guestList = new Generate().guestList(listOfRecords);
         Represent represent = new Represent();
         Format format = new InformalNameFormat();
-        String actual = represent.label(format,guestList);
-        String expected="+---------------------+\n" +
-                        "| Ms Julius Barrows   |\n" +
-                        "|---------------------|\n" +
-                        "| Veda haven, Vermont |\n" +
-                        "| Macedonia           |\n" +
-                        "+---------------------+\n";
-        Assert.assertEquals(expected,actual);
+        String actual = represent.label(format, guestList);
+        String expected = "+---------------------+\n" +
+                "| Ms Julius Barrows   |\n" +
+                "|---------------------|\n" +
+                "| Veda haven, Vermont |\n" +
+                "| Macedonia           |\n" +
+                "+---------------------+\n";
+        Assert.assertEquals(expected, actual);
     }
 }

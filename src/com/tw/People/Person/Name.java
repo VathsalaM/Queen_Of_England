@@ -11,7 +11,8 @@ public class Name {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
     public String format(Format format) {
-        return format.value(firstName,lastName);
+        return format.value(firstName, lastName);
     }
 }

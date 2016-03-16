@@ -1,11 +1,12 @@
-package com.tw.Library.Predicates;
+package com.tw.Library.Filter;
+
 import com.tw.People.Person.Address.Country;
 import com.tw.People.Person.Guest;
 
-public class CountryPredicate implements Predicates {
+public class CountryFilter implements Filter {
     private final Country country;
 
-    public CountryPredicate(Country country) {
+    public CountryFilter(Country country) {
         this.country = country;
     }
 

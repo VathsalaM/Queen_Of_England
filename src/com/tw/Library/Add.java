@@ -1,12 +1,12 @@
 package com.tw.Library;
 
+import com.tw.Library.Filter.AgeFilter;
+import com.tw.Library.Filter.CompositeFilter;
+import com.tw.Library.Filter.CountryFilter;
+import com.tw.Library.Filter.Filter;
 import com.tw.Library.Formats.FormalNameFormat;
 import com.tw.Library.Formats.Format;
 import com.tw.Library.Formats.InformalNameFormat;
-import com.tw.Library.Predicates.AgePredicate;
-import com.tw.Library.Predicates.CompositePredicate;
-import com.tw.Library.Predicates.CountryPredicate;
-import com.tw.Library.Predicates.Predicates;
 import com.tw.People.Person.Address.Country;
 import com.tw.People.Person.Age;
 
@@ -15,17 +15,17 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class Add {
-    public CompositePredicate predicates(HashMap<String, String> conditions) {
-        ArrayList<Predicates> predicates = new ArrayList<>();
+    public static CompositeFilter filters(HashMap<String, String> conditions) {
+        ArrayList<Filter> predicates = new ArrayList<>();
         Set<String> conditionSet = conditions.keySet();
         if (conditionSet.contains("country"))
-            predicates.add(new CountryPredicate(new Country(conditions.get("country"))));
+            predicates.add(new CountryFilter(new Country(conditions.get("country"))));
         if (conditionSet.contains("ageAbove"))
-            predicates.add(new AgePredicate(new Age(Integer.parseInt(conditions.get("ageAbove")))));
-        return new CompositePredicate(predicates);
+            predicates.add(new AgeFilter(new Age(Integer.parseInt(conditions.get("ageAbove")))));
+        return new CompositeFilter(predicates);
     }
 
-    public Format format(Set<String> commands) {
+    public static Format format(Set<String> commands) {
         if (commands.contains("formal"))
             return new FormalNameFormat();
         return new InformalNameFormat();

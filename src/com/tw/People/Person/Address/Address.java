@@ -16,7 +16,7 @@ public class Address {
     }
 
     public String cityAndCountry() {
-        return String.format("%s, %s",city.toString(),state.toString());
+        return String.format("%s, %s", city.toString(), state.toString());
     }
 
     public String country() {

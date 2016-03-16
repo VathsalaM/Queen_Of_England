@@ -1,7 +1,7 @@
-package com.tw.Library.Predicates;
+package com.tw.Library.Filter;
 
 import com.tw.People.Person.Guest;
 
-public interface Predicates {
+public interface Filter {
     boolean test(Guest guest);
 }
