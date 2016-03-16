@@ -59,45 +59,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Queen_Of_England/RecordTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Queen_Of_England/RepresentTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/records" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/LibraryTest/AddTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/LibraryTest/FormatTest/FormalNameFormatTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/LibraryTest/FormatTest/InformalNameFormatTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/LibraryTest/GenerateTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/LibraryTest/ReaderTest/ReaderTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/PeopleTest/AgeTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/PeopleTest/PeopleTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/tw/People/People.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/PrintLabel.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/PrintLabel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/ArgumentSeparator.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/ArgumentSeparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Formats/FormalNameFormat.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Formats/FormalNameFormat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Formats/Format.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Formats/Format.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Formats/InformalNameFormat.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Formats/InformalNameFormat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Predicates/CompositePredicate.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Predicates/CompositePredicate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Predicates/CountryPredicate.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Predicates/CountryPredicate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Represent/Represent.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/Library/Represent/Represent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Address/Address.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Address/Address.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Address/Country.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Address/Country.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Address/State.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Address/State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Age.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Age.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Guest.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Guest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Name.class" afterPath="$PROJECT_DIR$/out/production/Queen_Of_England/com/tw/People/Person/Name.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Queen_Of_England/LibraryTest/ArgumentSeparatorTest.class" afterPath="$PROJECT_DIR$/out/test/Queen_Of_England/LibraryTest/ArgumentSeparatorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrintLabel.java" afterPath="$PROJECT_DIR$/src/PrintLabel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/ArgumentSeparator.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/ArgumentSeparator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/Formats/FormalNameFormat.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/Formats/FormalNameFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/Formats/Format.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/Formats/Format.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/Formats/InformalNameFormat.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/Formats/InformalNameFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/Predicates/CompositePredicate.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/Predicates/CompositePredicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/Predicates/CountryPredicate.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/Predicates/CountryPredicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/Library/Represent/Represent.java" afterPath="$PROJECT_DIR$/src/com/tw/Library/Represent/Represent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/People/Person/Address/Address.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Person/Address/Address.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/People/Person/Address/Country.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Person/Address/Country.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/People/Person/Address/State.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Person/Address/State.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/People/Person/Age.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Person/Age.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/People/Person/Guest.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Person/Guest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tw/People/Person/Name.java" afterPath="$PROJECT_DIR$/src/com/tw/People/Person/Name.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/LibraryTest/ArgumentSeparatorTest.java" afterPath="$PROJECT_DIR$/test/LibraryTest/ArgumentSeparatorTest.java" />
     </list>
     <ignored path="Queen_Of_England.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,90 +95,7 @@
     <favorites_list name="Queen_Of_England" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Format.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Formats/Format.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformalNameFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Formats/InformalNameFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AgePredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/AgePredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompositePredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/CompositePredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountryPredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/CountryPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Predicates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/Predicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Reader/Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Represent.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Represent/Represent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -284,12 +164,12 @@
         <option value="$PROJECT_DIR$/src/com/tw/Library/Predicates/CompositePredicate.java" />
         <option value="$PROJECT_DIR$/src/com/tw/Library/Predicates/CountryPredicate.java" />
         <option value="$PROJECT_DIR$/src/com/tw/People/Person/Address/Address.java" />
-        <option value="$PROJECT_DIR$/src/com/tw/People/Person/Address/Country.java" />
         <option value="$PROJECT_DIR$/src/com/tw/People/Person/Address/State.java" />
-        <option value="$PROJECT_DIR$/src/com/tw/People/Person/Age.java" />
         <option value="$PROJECT_DIR$/src/com/tw/People/Person/Guest.java" />
         <option value="$PROJECT_DIR$/src/com/tw/People/Filter.java" />
         <option value="$PROJECT_DIR$/src/com/tw/Library/Represent/Represent.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/People/Person/Address/Country.java" />
+        <option value="$PROJECT_DIR$/src/com/tw/People/Person/Age.java" />
       </list>
     </option>
   </component>
@@ -495,114 +375,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Represent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Predicates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Queen_Of_England" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Formats" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1095,7 +867,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="819" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1108,7 +880,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.48512587" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.48512587" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1350,29 +1122,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/People/Person/Address/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tw/People/Person/Address/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/People/Person/Age.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1429,57 +1182,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Formats/Format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Formats/InformalNameFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/AgePredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/CompositePredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/CountryPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/Predicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Reader/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
@@ -1487,11 +1192,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Represent/Represent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9">
+        <state vertical-scroll-proportion="2.55">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/Predicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/CountryPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/CompositePredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Predicates/AgePredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Formats/InformalNameFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/Library/Formats/Format.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/People/Person/Address/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/People/Person/Age.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

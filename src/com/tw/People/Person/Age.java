@@ -5,8 +5,8 @@ public class Age {
     public Age(int age) {
         this.age = age;
     }
-    public boolean isAbove(Age age) {
-        return this.age>age.age;
+    public boolean isAbove(Age otherAge) {
+        return this.age>otherAge.age;
     }
 
     @Override

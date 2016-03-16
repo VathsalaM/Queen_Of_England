@@ -10,11 +10,13 @@ public class Country {
     public String toString() {
         return name;
     }
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        Country country = (Country) o;
-        return name.equals(country.name);
-    }
 
+    @Override
+    public boolean equals(Object otherCountry) {
+        if (this == otherCountry) return true;
+        if (otherCountry == null || getClass() != otherCountry.getClass()) return false;
+        Country country = (Country) otherCountry;
+        return name != null ? name.equals(country.name) : country.name == null;
+
+    }
 }
